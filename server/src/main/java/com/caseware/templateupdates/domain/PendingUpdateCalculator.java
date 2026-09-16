@@ -109,8 +109,9 @@ public final class PendingUpdateCalculator {
         } catch (RuntimeException failure) {
             // A bulkhead, not a swallowed error. One template whose structure the renderer cannot
             // describe must not fail a list covering hundreds of engagements, and the user is still
-            // told truthfully that an update is pending. The failure is surfaced as a distinct
-            // state carrying an incident reference rather than as a missing summary.
+            // told truthfully that an update is pending. The domain reports the reason; the
+            // incident id the contract carries is attached at the API boundary, which is where
+            // correlation identifiers belong.
             return new PendingUpdateState.SummaryUnavailable(
                     baseline.engagementId(), baseline.baselineVersion(), accumulated,
                     DiffLookup.Unavailable.Reason.RENDERING_FAILED);
