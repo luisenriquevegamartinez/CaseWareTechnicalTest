@@ -1,0 +1,21 @@
+# Java
+target/
+build/
+.gradle/
+*.class
+
+# Node / Angular
+node_modules/
+dist/
+.angular/
+*.tsbuildinfo
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db

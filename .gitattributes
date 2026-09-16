@@ -1,0 +1,2 @@
+# Normalise line endings so the submission reads identically on any platform.
+* text=auto eol=lf
