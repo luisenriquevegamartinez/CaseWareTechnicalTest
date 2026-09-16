@@ -1,0 +1,28 @@
+{
+  "templateId": "REVIEW-CA",
+  "fromVersion": 6,
+  "toVersion": 7,
+  "generatedAt": "2026-07-21T13:03:02Z",
+  "changes": [
+    {
+      "op": "add",
+      "path": "/sections/inquiries/questions/12",
+      "value": {
+        "id": "Q-INQ-012",
+        "type": "text",
+        "label": "Describe any events after the reporting date that may require adjustment or disclosure."
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/sections/analytics/procedures/2/tolerance",
+      "oldValue": 0.15,
+      "newValue": 0.12
+    },
+    {
+      "op": "remove",
+      "path": "/sections/inquiries/questions/4/helpText",
+      "oldValue": "Ask management to describe changes in accounting policies since the prior year."
+    }
+  ]
+}

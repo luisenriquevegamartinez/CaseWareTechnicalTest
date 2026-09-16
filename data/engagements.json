@@ -1,0 +1,74 @@
+[
+  {
+    "engagementId": "ENG-1001",
+    "name": "Northstar Manufacturing 2026",
+    "templateId": "AUDIT-CA",
+    "templateVersion": 5
+  },
+  {
+    "engagementId": "ENG-1002",
+    "name": "Maple Ridge Foods 2026",
+    "templateId": "AUDIT-CA",
+    "templateVersion": 4
+  },
+  {
+    "engagementId": "ENG-1003",
+    "name": "Harbourview Logistics 2026",
+    "templateId": "AUDIT-CA",
+    "templateVersion": 3
+  },
+  {
+    "engagementId": "ENG-1004",
+    "name": "Pinecrest Holdings 2026",
+    "templateId": "AUDIT-CA",
+    "templateVersion": 5
+  },
+  {
+    "engagementId": "ENG-1005",
+    "name": "Cedar Peak Services 2026",
+    "templateId": "REVIEW-CA",
+    "templateVersion": 8
+  },
+  {
+    "engagementId": "ENG-1006",
+    "name": "Westmount Consulting 2026",
+    "templateId": "REVIEW-CA",
+    "templateVersion": 7
+  },
+  {
+    "engagementId": "ENG-1007",
+    "name": "Bluewater Hospitality 2026",
+    "templateId": "REVIEW-CA",
+    "templateVersion": 6
+  },
+  {
+    "engagementId": "ENG-1008",
+    "name": "Summit Property Group 2026",
+    "templateId": "REVIEW-CA",
+    "templateVersion": 8
+  },
+  {
+    "engagementId": "ENG-1009",
+    "name": "Northern Grid Energy 2026",
+    "templateId": "RISK-CA",
+    "templateVersion": 12
+  },
+  {
+    "engagementId": "ENG-1010",
+    "name": "Greenfield Health Services 2026",
+    "templateId": "RISK-CA",
+    "templateVersion": 11
+  },
+  {
+    "engagementId": "ENG-1011",
+    "name": "Stonebridge Construction 2026",
+    "templateId": "RISK-CA",
+    "templateVersion": 10
+  },
+  {
+    "engagementId": "ENG-1012",
+    "name": "Prairie Star Investments 2026",
+    "templateId": "RISK-CA",
+    "templateVersion": 12
+  }
+]

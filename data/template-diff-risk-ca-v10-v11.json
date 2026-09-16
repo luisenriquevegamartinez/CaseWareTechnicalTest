@@ -1,0 +1,38 @@
+{
+  "templateId": "RISK-CA",
+  "fromVersion": 10,
+  "toVersion": 11,
+  "generatedAt": "2026-06-30T13:03:36Z",
+  "changes": [
+    {
+      "op": "replace",
+      "path": "/sections/riskAssessment/questions/2/label",
+      "oldValue": "Describe key business risks.",
+      "newValue": "Describe key business risks and how management monitors them."
+    },
+    {
+      "op": "add",
+      "path": "/sections/riskAssessment/questions/6",
+      "value": {
+        "id": "Q-RISK-006",
+        "type": "multiSelect",
+        "label": "Which sources were used to identify emerging risks?",
+        "options": [
+          "Management inquiry",
+          "Industry data",
+          "Prior-year findings",
+          "External specialists"
+        ]
+      }
+    },
+    {
+      "op": "remove",
+      "path": "/sections/documentation/legacyRiskMatrix",
+      "oldValue": {
+        "id": "LEGACY-RM-01",
+        "label": "Legacy risk matrix",
+        "enabled": true
+      }
+    }
+  ]
+}

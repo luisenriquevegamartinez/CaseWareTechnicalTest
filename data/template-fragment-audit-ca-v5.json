@@ -1,0 +1,41 @@
+{
+  "templateId": "AUDIT-CA",
+  "version": 5,
+  "metadata": {
+    "displayName": "Canadian Audit Engagement",
+    "market": "CA"
+  },
+  "sections": {
+    "planning": {
+      "displayName": "Planning",
+      "questions": {
+        "3": {
+          "id": "Q-PLN-003",
+          "type": "yesNo",
+          "label": "Has management identified significant accounting estimates and related estimation uncertainty?"
+        },
+        "7": {
+          "id": "Q-PLN-007",
+          "type": "yesNo",
+          "label": "Were any new fraud risk factors identified during planning?",
+          "required": true
+        }
+      }
+    },
+    "materiality": {
+      "displayName": "Materiality",
+      "guidance": {
+        "thresholdPercent": 4.0
+      }
+    },
+    "completion": {
+      "displayName": "Completion",
+      "checklists": {
+        "subsequent-events": {
+          "id": "CHK-SE-01",
+          "label": "Subsequent events review"
+        }
+      }
+    }
+  }
+}

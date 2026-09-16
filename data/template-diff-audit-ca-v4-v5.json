@@ -1,0 +1,33 @@
+{
+  "templateId": "AUDIT-CA",
+  "fromVersion": 4,
+  "toVersion": 5,
+  "generatedAt": "2026-08-18T13:04:41Z",
+  "changes": [
+    {
+      "op": "replace",
+      "path": "/sections/planning/questions/3/label",
+      "oldValue": "Has management identified significant estimates?",
+      "newValue": "Has management identified significant accounting estimates and related estimation uncertainty?"
+    },
+    {
+      "op": "replace",
+      "path": "/sections/materiality/guidance/thresholdPercent",
+      "oldValue": 4.5,
+      "newValue": 4.0
+    },
+    {
+      "op": "add",
+      "path": "/sections/completion/checklists/subsequent-events",
+      "value": {
+        "id": "CHK-SE-01",
+        "label": "Subsequent events review",
+        "items": [
+          "Confirm inquiry with management",
+          "Evaluate events requiring adjustment",
+          "Document the conclusion"
+        ]
+      }
+    }
+  ]
+}

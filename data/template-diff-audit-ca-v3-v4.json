@@ -1,0 +1,33 @@
+{
+  "templateId": "AUDIT-CA",
+  "fromVersion": 3,
+  "toVersion": 4,
+  "generatedAt": "2026-07-07T13:02:18Z",
+  "changes": [
+    {
+      "op": "add",
+      "path": "/sections/planning/questions/7",
+      "value": {
+        "id": "Q-PLN-007",
+        "type": "yesNo",
+        "label": "Were any new fraud risk factors identified during planning?",
+        "required": true
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/sections/materiality/guidance/thresholdPercent",
+      "oldValue": 5.0,
+      "newValue": 4.5
+    },
+    {
+      "op": "remove",
+      "path": "/sections/planning/procedures/legacy-risk-confirmation",
+      "oldValue": {
+        "id": "PROC-PLN-004",
+        "label": "Confirm legacy risk classification",
+        "required": false
+      }
+    }
+  ]
+}

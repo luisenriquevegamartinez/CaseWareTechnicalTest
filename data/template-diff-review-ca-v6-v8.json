@@ -1,0 +1,47 @@
+{
+  "templateId": "REVIEW-CA",
+  "fromVersion": 6,
+  "toVersion": 8,
+  "generatedAt": "2026-08-25T13:04:55Z",
+  "changes": [
+    {
+      "op": "replace",
+      "path": "/metadata/displayName",
+      "oldValue": "Canadian Review Engagement",
+      "newValue": "Canadian Review Engagement 2026"
+    },
+    {
+      "op": "add",
+      "path": "/sections/inquiries/questions/12",
+      "value": {
+        "id": "Q-INQ-012",
+        "type": "text",
+        "label": "Describe any events after the reporting date that may require adjustment or disclosure."
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/sections/analytics/procedures/2/tolerance",
+      "oldValue": 0.15,
+      "newValue": 0.1
+    },
+    {
+      "op": "remove",
+      "path": "/sections/inquiries/questions/4/helpText",
+      "oldValue": "Ask management to describe changes in accounting policies since the prior year."
+    },
+    {
+      "op": "add",
+      "path": "/sections/completion/checklists/going-concern",
+      "value": {
+        "id": "CHK-GC-01",
+        "label": "Going concern evaluation",
+        "items": [
+          "Document management's assessment",
+          "Evaluate contradictory evidence",
+          "Record the practitioner's conclusion"
+        ]
+      }
+    }
+  ]
+}

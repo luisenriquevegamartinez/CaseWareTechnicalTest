@@ -1,0 +1,33 @@
+{
+  "templateId": "REVIEW-CA",
+  "fromVersion": 7,
+  "toVersion": 8,
+  "generatedAt": "2026-08-25T13:02:27Z",
+  "changes": [
+    {
+      "op": "replace",
+      "path": "/metadata/displayName",
+      "oldValue": "Canadian Review Engagement",
+      "newValue": "Canadian Review Engagement 2026"
+    },
+    {
+      "op": "replace",
+      "path": "/sections/analytics/procedures/2/tolerance",
+      "oldValue": 0.12,
+      "newValue": 0.1
+    },
+    {
+      "op": "add",
+      "path": "/sections/completion/checklists/going-concern",
+      "value": {
+        "id": "CHK-GC-01",
+        "label": "Going concern evaluation",
+        "items": [
+          "Document management's assessment",
+          "Evaluate contradictory evidence",
+          "Record the practitioner's conclusion"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "templateId": "RISK-CA",
+  "fromVersion": 11,
+  "toVersion": 12,
+  "generatedAt": "2026-08-11T13:05:11Z",
+  "changes": [
+    {
+      "op": "replace",
+      "path": "/sections/riskAssessment/scoring/highRiskThreshold",
+      "oldValue": 8,
+      "newValue": 7
+    },
+    {
+      "op": "add",
+      "path": "/sections/monitoring/checklists/control-changes",
+      "value": {
+        "id": "CHK-CTRL-01",
+        "label": "Control changes since prior assessment",
+        "required": true
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/sections/riskAssessment/guidance/reassessmentFrequencyMonths",
+      "oldValue": 12,
+      "newValue": 9
+    }
+  ]
+}
