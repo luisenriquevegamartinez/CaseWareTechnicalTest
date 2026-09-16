@@ -1,0 +1,23 @@
+{
+  "//": "Typecheck-only config for the Part 3 excerpt. The exercise asks for component and state code, not a runnable application, so there is no build target here. The @contract alias is the point: the client consumes the same type definitions the server contract is written from, rather than a hand-copied duplicate that could drift.",
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ES2022",
+    "moduleResolution": "bundler",
+    "lib": ["ES2022", "DOM"],
+    "strict": true,
+    "noImplicitOverride": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "types": ["vitest/globals"],
+    "baseUrl": ".",
+    "paths": {
+      "@contract/*": ["../contract/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "../contract/**/*.ts"]
+}

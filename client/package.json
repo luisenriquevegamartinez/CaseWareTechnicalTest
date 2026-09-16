@@ -1,0 +1,17 @@
+{
+  "name": "template-updates-client",
+  "private": true,
+  "type": "module",
+  "description": "Part 3 excerpt. Not a runnable application: just enough tooling to typecheck the components and run the focused store test.",
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@angular/core": "^19.0.0",
+    "rxjs": "^7.8.1",
+    "typescript": "~5.6.3",
+    "vitest": "^2.1.8",
+    "zone.js": "^0.15.0"
+  }
+}
